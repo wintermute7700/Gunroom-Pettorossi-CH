@@ -1,0 +1,69 @@
+.logo {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px rgb(22, 1, 61);
+    padding-top: 20px;
+}
+.titulo {
+    padding-top: 10px;
+    text-align: center;
+}
+.texto {
+    padding-top: 10px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.2;
+    color: #e7dfdd;
+    text-shadow: 2px 2px 4px rgb(22, 1, 61);
+    text-decoration: none;
+}
+/* boton whatsapp */
+div.positionElemento{
+    width: 80px;
+    height: 80px;
+    background-color: greenyellow;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+}
+.whatsapp{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+div.positionElemento:hover{
+    transform: scale(1.1,1.1);
+}
+/* footer */
+.footer {
+    background-color: #343a40;
+    color: #e7dfdd;
+    text-shadow: 2px 2px 4px rgb(22, 1, 61);
+    border-top: 1px solid #e7dfdd;
+    padding-top: 30px;
+}
+.footer p{
+    padding-top: 10px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 1.2;
+    color: #e7dfdd;
+    text-shadow: 2px 2px 4px rgb(22, 1, 61);
+}
+.footer ul {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footer ul li {
+    list-style-type: none;
+}
+.footer ul li a img{
+    text-decoration: none;
+}
+.footer ul li a:hover{
+    color: #ea239c;
+}

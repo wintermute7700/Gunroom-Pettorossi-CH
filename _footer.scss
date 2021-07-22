@@ -1,0 +1,29 @@
+.footer {
+    background-color: #343a40;
+    color: $colorTextoClaro;
+    text-shadow: 2px 2px 4px rgb(22, 1, 61);
+    border-top: 1px solid #e7dfdd;
+    padding-top: 30px;
+    p {
+        padding-top: 10px;
+        font-size: 12px;
+        text-align: center;
+        line-height: 1.2;
+        color: $colorTextoClaro;
+        text-shadow: 2px 2px 4px rgb(22, 1, 61);
+    }
+    ul{
+        padding-top: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        li{
+            list-style-type: none;
+            a{
+                &:hover{
+                    color: $colorHover;
+                }
+            }
+        }
+    }
+}

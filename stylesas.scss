@@ -1,0 +1,62 @@
+@import "variables";
+@import "header";
+@import "footer";
+
+.titulo {
+    text-align: center;
+    background-color: $colorFondoTitulo;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+.texto {
+    padding-top: 10px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.2;
+    color: $colorTextoClaro;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    text-decoration: none;
+}
+.texto2 {
+    font-size: 12px;
+}
+/* botones con operaciones, maps */
+$botones:(view:rgb(31, 31, 252),buy:rgb(8, 163, 8));
+@each $boton, $color in $botones{
+    .btn--#{$boton}{
+        background-color: $color;
+        color: white;
+        font-size: 18px;
+        text-align: center;
+        border-radius: 5px;
+        width: 50px;
+        height: 30px;
+        text-shadow: 1px 1px 4px rgb(22, 1, 61);
+        text-decoration: none;
+        &:hover{
+            background-color: rgb(121, 4, 121);
+            transform: scale(1.1,1.1);
+            text-decoration: none;
+        }
+    }
+}
+/* boton whatsapp */
+div.positionElemento{
+    width: 80px;
+    height: 80px;
+    background-color: greenyellow;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    &:hover{
+        transform: scale(1.1,1.1);
+    }
+}
+.whatsapp{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
