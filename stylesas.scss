@@ -10,6 +10,12 @@
     justify-content: space-around;
     border-radius: 5px;
 }
+.titulo--principal{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 .texto {
     padding-top: 10px;
     font-size: 16px;
@@ -19,8 +25,20 @@
     text-shadow: 2px 2px 4px rgb(0, 0, 0);
     text-decoration: none;
 }
-.texto2 {
-    font-size: 12px;
+.texto--oscuro {
+    padding-top: 10px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.2;
+    text-decoration: none;
+    font-weight: bold;
+    &:hover{
+        opacity: 80%;
+        transform: scale(1.1,1.1);
+    }
+}
+.sep{
+    padding-top: 10px;
 }
 /* botones con operaciones, maps */
 $botones:(view:rgb(31, 31, 252),buy:rgb(8, 163, 8));
