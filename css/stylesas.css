@@ -8,6 +8,7 @@
 }
 
 .footer {
+  position: absolute;
   background-color: #343a40;
   color: white;
   text-shadow: 2px 2px 4px #16013d;
